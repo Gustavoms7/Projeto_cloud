@@ -17,10 +17,13 @@
         <input type="submit" value="Enviar">
     </form>
 
-    {% if name and email %}
+    {% if entries %}
     <h2>Informações Submetidas:</h2>
-    <p>Nome: {{ name }}</p>
-    <p>Email: {{ email }}</p>
+    <ul>
+        {% for entry in entries %}
+        <li>Nome: {{ entry.name }}, Email: {{ entry.email }}</li>
+        {% endfor %}
+    </ul>
     {% endif %}
 </body>
 </html>
