@@ -75,10 +75,11 @@ A região selecionada para a implantação foi **us-east-2 (Ohio)**, devido aos 
 **Motivo da Escolha:** Conecta a VPC ao serviço DynamoDB, com rotas públicas direcionando o tráfego ao VPC Endpoint e ao Internet Gateway, garantindo uma conexão eficiente e segura.
 
 ## 5. Análise de Custos
-
+![alt text](image.png)
+![alt text](image-1.png)
 
 ## 6. Conclusão
-Este relatório detalha a implementação de uma arquitetura na AWS utilizando CloudFormation. A infraestrutura provisionada é robusta e escalável, com componentes chave como ALB, EC2 com Auto Scaling, e DynamoDB. As decisões técnicas foram tomadas com base em custo e desempenho, buscando otimizar os recursos utilizados.
+Este relatório detalha a implementação de uma arquitetura na AWS utilizando CloudFormation. A infraestrutura provisionada é robusta e escalável, com componentes chave como ALB, EC2 com Auto Scaling, e DynamoDB. As decisões técnicas foram tomadas com base em custo, que embora, pela analise possamos ver que é bem baixo e no momento não é algo preocupante, as experencias com AWS, mostram que isso um dia vai vir a ser um problema, e desempenho, buscando otimizar os recursos utilizados.
 
 ## 7. Execução 
 para executar o codigo, primeiro é necessario ter o AWS CLI instaldo na sua maquina.
